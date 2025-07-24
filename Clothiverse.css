@@ -1,0 +1,117 @@
+body {
+    background-color: burlywood;
+}
+
+.clothiverse {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: indigo;
+    font-size: 35px;
+}
+.divider{
+    margin-top: 40px;
+    border: 2px solid indigo;
+}
+hr {
+    margin-bottom: 20px;
+    border: 1px solid indigo;
+}
+.about-brand {
+    text-align: center;
+    color: indigo;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    color: indigo;
+}
+
+h3 {
+    text-align: center;
+    color: indigo;
+    font-size: 18px;
+}
+
+.link-list-3{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.link-list-2 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.link-list {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-list ul,.link-list-2 ul,.link-list-3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li ,.link-list-2 li ,.link-list-3 li {
+    margin: 10px 0;
+}
+
+.link-list a ,.link-list-2 a ,.link-list-3 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #004d4d;
+    font-family: 'Segoe UI', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.link-list a:hover ,.link-list-2 a:hover ,.link-list-3 a:hover {
+    color: #cc6600;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.link-list-row {
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.tshirt-row {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.categories-row {
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+}
+
+.clothes {
+  width: 410px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  padding-left:20px;
+}
+.categories-row a{
+    color: indigo;
+    text-decoration: none;
+}
+.categories-row a:hover {
+    color: #cc6600;
+}
